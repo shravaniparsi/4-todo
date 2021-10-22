@@ -1,0 +1,27 @@
+.to-do-item {
+  width: 500px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+.text-item {
+  flex: 90;
+  text-align: left;
+}
+.edit-icon {
+  flex: 5;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: green;
+}
+.delete-icon {
+  flex: 5;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: red;
+}
+.to-do-wrapper {
+  display: flex;
+  margin: 10px 0;
+}
